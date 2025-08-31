@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "Not just a cucumber, not just a joke. BUKE flips the script, defies expectations, and keeps rolling forward on Base network.",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({

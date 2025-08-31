@@ -13,8 +13,10 @@ export default function CukeCoinPage() {
           <div className="flex items-center justify-between mb-8">
             <div className="text-2xl font-bold text-blue-300">BUKE</div>
             <div className="flex gap-2">
-              <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
-                <Twitter className="w-4 h-4 mr-1" />
+              <Button size="sm" className="bg-blue-600 hover:bg-blue-700" asChild>
+                <a href="https://x.com/Bukecoin" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="w-4 h-4 mr-1" />
+                </a>
               </Button>
               <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
                 <Send className="w-4 h-4 mr-1" />
@@ -154,8 +156,10 @@ export default function CukeCoinPage() {
                 </CardContent>
               </Card>
               <div className="flex gap-4">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-                  <Twitter className="w-4 h-4 mr-2" />
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
+                  <a href="https://x.com/Bukecoin" target="_blank" rel="noopener noreferrer">
+                    <Twitter className="w-4 h-4 mr-2" />
+                  </a>
                 </Button>
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white">
                   <Send className="w-4 h-4 mr-2" />
